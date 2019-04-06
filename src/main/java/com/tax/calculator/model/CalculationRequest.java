@@ -8,15 +8,6 @@ public class CalculationRequest {
     private Integer year;
     private BigDecimal annualIncome;
 
-    public CalculationRequest(String clientID, Integer year, BigDecimal annualIncome) {
-        this.clientID = clientID;
-        this.year = year;
-        this.annualIncome = annualIncome;
-    }
-
-    public CalculationRequest() {
-    }
-
     public void setAnnualIncome(BigDecimal annualIncome) {
         this.annualIncome = annualIncome;
     }
